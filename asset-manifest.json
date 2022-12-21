@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nn-test/static/css/main.439945d3.css",
+    "main.js": "/nn-test/static/js/main.c8c3e5de.js",
+    "index.html": "/nn-test/index.html",
+    "main.439945d3.css.map": "/nn-test/static/css/main.439945d3.css.map",
+    "main.c8c3e5de.js.map": "/nn-test/static/js/main.c8c3e5de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.439945d3.css",
+    "static/js/main.c8c3e5de.js"
+  ]
+}
