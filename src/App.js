@@ -4,8 +4,6 @@ import Test from './Test';
 import cs from './App.module.css';
 
 import data_nn from './resources/data.json';
-import data_pravo from './resources/data_2.json';
-import data_intel from './resources/data_3.json';
 
 
 export default function App() {
@@ -17,10 +15,8 @@ export default function App() {
         data !== ''
           ? <Test data={data}></Test>
           : <div className={cs.containerCourses}>
-            <div className={cs.course} onClick={() => setData(data_nn)}>Нейронные сети</div>
-            <div className={cs.course} onClick={() => setData(data_pravo)}>Право</div>
-            <div className={cs.course} onClick={() => setData(data_intel)}>Интеллектуальная собственность</div>
-          </div>
+            <div className={cs.course} onClick={() => setData(data_nn)}>Интеллекутальная собственность</div>
+            </div>
       }
     </>
   );
