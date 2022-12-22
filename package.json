@@ -2,7 +2,7 @@
   "name": "nn-tests",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alexxykv.github.io/nn-test/",
+  "homepage": "https://buroroll.github.io/nn-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -17,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "eslintConfig": {
     "extends": [
